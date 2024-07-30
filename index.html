@@ -1,7 +1,136 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn By Quiz</title>
+    <style>
+        body, html {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        body a {
+            text-decoration: none;
+        }
+
+        header {
+            background-color: #001484;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        
+
+        
+        main {
+            flex: 1; /* Allows main to grow and take available space */
+        }
+        .app-container {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 10px 0;
+            background-color: white;
+
+            padding: 10px;
+
+        }
+        .app-container:hover {
+            background-color: #e0e4e8;
+        }
+
+        .app-logo img {
+            border-radius: 15%; /* Rounded corners */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow */
+            width: 130px; /* Example size */
+            height: 130px; /* Example size */
+            object-fit: cover; /* Ensures the image covers the area and maintains aspect ratio */
+        }
+        .app-content {
+            margin-left: 20px;
+
+        }
+        .app-content h2, .app-content p, .app-content a {
+            margin: 10px 0;
+        }
+        .app-content a {
+            display: inline-block;
+            color: #007BFF;
+        }
+
+        footer {
+            background-color: #001484;
+            color: white;
+            text-align: center;
+            position: relative;
+            bottom: 0;
+        }
+
+        footer p {
+            margin: 8px;
+        }
+
+
+    </style>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <a href="https://play.google.com/store/apps/developer?id=Learn+By+Quiz" target="_blank"><header>
+        <h1>Learn By Quiz</h1>
+    </header></a>
+    
+
+    <main>
+
+
+
+
+        <div class="app-container">
+            <div class="app-logo">
+                <img src="res/logo_urq.png" alt="App Logo">
+            </div>
+            <div class="app-content">
+                <h2>Ukraine Regions Quiz</h2>
+                <p>Test your knowledge of Ukraine’s regions, flags and maps with trivia questions.</p>
+                <a href="https://play.google.com/store/apps/details?id=app.learnbyquiz.ukraineregionsquiz" target="_blank">
+        <img src="res/GetItOnGooglePlay_Badge_Web_color_English.png" alt="Get it on Google Play" style="height: 50px;">
+    </a>
+            
+            </div>
+        </div>
+
+
+
+
+
+        <div class="app-container">
+            <div class="app-logo">
+                <img src="res/logo_srq.png" alt="App Logo">
+            </div>
+            <div class="app-content">
+                <h2>Slovakia Regions Quiz</h2>
+                <p>Explore Slovakia's regions: names, maps, and facts in a fun quiz game.</p>
+                <a href="https://play.google.com/store/apps/details?id=app.learnbyquiz.slovakiaregionsquiz" target="_blank">
+        <img src="res/GetItOnGooglePlay_Badge_Web_color_English.png" alt="Get it on Google Play" style="height: 50px;">
+    </a>
+            
+            </div>
+        </div>
+        
+
+    </main>
+
+    <footer>
+        <p>Google Play is a trademark of Google LLC.</p>
+        <p>Contact us via e-mail: learnbyquiz@gmail.com</p>
+    </footer>
 </body>
 </html>
